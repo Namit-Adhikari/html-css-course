@@ -1,0 +1,56 @@
+<!-- LinkedIn -->
+<!-- Background Color, Border Width -->
+
+<button class="apply-button">
+  Apply on company website
+</button>
+
+<button class="save-button">
+  Save
+</button>
+
+<style>
+  .apply-button{
+    color: white;
+    background-color: rgb(10, 102, 194);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border: none;
+    border-radius: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 3px;
+    transition: background-color 0.15s;
+  }
+  .apply-button:hover{
+    background-color: rgb(9, 88, 167);
+  }
+  .save-button{
+    color: rgb(10, 102, 194);
+    background-color: white;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 18px;
+    border-color: rgb(10, 102, 194);
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 3px;
+    transition: border-width 0.15s, background-color 0.15s, 
+    padding-top 0.15s, padding-bottom 0.15s, padding-left 0.15s, 
+    padding-right 0.15s;
+  }
+  .save-button:hover{
+    border-width: 2px;
+    padding-top: 8px; /* Paddings are decreased by 1px on each side to equalize 1px increase in border-width. */
+    padding-bottom: 8px;
+    padding-left: 17px;
+    padding-right: 17px;
+    background-color: rgb(10, 102, 194, 0.1);
+  }
+</style>
