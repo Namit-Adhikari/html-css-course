@@ -1,0 +1,35 @@
+.user-dp{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 30px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.text-box{
+  vertical-align: middle;
+  font-size: 22px;
+  border: none;
+  border-radius: 8px;
+  padding-left: 5px;
+  padding-right: 80px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.tweet-button{
+  vertical-align: middle;
+  color: white;
+  background-color: rgb(120, 186, 244);
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
