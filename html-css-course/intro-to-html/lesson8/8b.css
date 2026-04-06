@@ -1,0 +1,15 @@
+p{
+  font-size: 22px;
+  width: 350px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 0px;
+}
+
+button{
+  font-size: 22px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
