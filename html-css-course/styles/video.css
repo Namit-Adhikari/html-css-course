@@ -63,3 +63,55 @@
 	text-decoration: none;
 	color: black;
 }
+
+.profile-picture-container {
+	position: relative;
+	display: inline-block;
+}
+
+.channel-tooltip {
+	position: absolute;
+	width: 200px;
+	background-color: white;
+	opacity: 0;
+	top: 55px;
+	z-index: 300;
+	padding: 12px;
+	display: flex;
+	align-items: center;
+	box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.3);
+	border-radius: 6px;
+	transition: opacity 0.15s;
+	pointer-events: none;
+}
+
+.profile-picture-container:hover .channel-tooltip {
+	opacity: 1;
+}
+
+.tooltip-author {
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Roboto, Arial;
+	margin-bottom: 4px;
+}
+
+.tooltip-subscribers {
+	font-size: 14px;
+	font-family: Roboto, Arial;
+	color: rgb(96, 96, 96);
+}
+
+.channel-tooltip-picture-container {
+	width: 50px;
+}
+
+.channel-tooltip-picture {
+	height: 50px;
+	border-radius: 25px;
+  width: 50px;
+}
+
+.channel-tooltip-info {
+	padding-left: 8px;
+}
