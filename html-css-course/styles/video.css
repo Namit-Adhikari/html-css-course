@@ -37,7 +37,6 @@
 
 .video-grid {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
 	column-gap: 16px;
 	row-gap: 40px;
 }
@@ -58,14 +57,14 @@
 	.video-grid {
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 	}
-  .video-title {
-    font-size: 16px;
-    line-height: 24px;
-  }
-  .video-author,
-  .video-stats {
-    font-size: 14px;
-  }
+	.video-title {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.video-author,
+	.video-stats {
+		font-size: 14px;
+	}
 }
 
 .video-time {
@@ -82,7 +81,7 @@
 
 .video-title-link {
 	text-decoration: none;
-  color: black;
+	color: black; /* Though body is set to black, it doesn't affect this anchor element so it's set black here. */
 }
 
 .profile-picture-container {
